@@ -2,20 +2,30 @@ body {
   background-color: #AAC4FF;
 }
 
+h1, h2, h3 {
+  color: #E0144C;
+}
+
 hr {
   border-style: none;
   height: 2px;
   background-color: white;
 }
 
-h1{
-  color: #E0144C
+.tabl {
+  border: 2px solid;
 }
 
-h2{
-  color: #E0144C
+#skillsTable {
+  cellspacing: 2px solid;
 }
 
-h3{
-  color: #E0144C
+/*
+// This tells what specific element on your website you want
+// to change. Remember, you have to specify in your html file
+// The class.
+
+.className {
+  background-color: green;
 }
+*/
